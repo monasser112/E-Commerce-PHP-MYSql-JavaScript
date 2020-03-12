@@ -1,0 +1,194 @@
+
+body {
+  background-color: #f4f4f4;
+  font-size: 16px;
+  height: 1000px;
+}
+h1 {
+	font-size: 55px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #666;
+}
+
+/*******************start navbar*********************/
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.nav > li > a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+
+.navbar-brand {
+	font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+}
+
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+/*******************end navbar*********************/
+/**************start login*************************/
+.login .loginform
+{
+  width: 300px;
+
+}
+/***************end login*************************/
+/***************** Start categories Page ************/
+.upper-bar
+{
+padding:10px;
+background-color: #FFF;
+}
+.item-box
+{
+  position: relative;
+}
+.upper-bar img
+{
+  width: 40px;
+  margin-right: 10px;
+  float: left;
+}
+.upper-bar .dropdown-menu
+{
+  left: 50px;
+}
+.item-box .price-tag{
+  background-color: red;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  color: #fff;
+  padding: 3px 5px;
+}
+/*****************start profile*********************/
+.information
+{
+  margin-top:20px;
+}
+.information ul {
+	padding: 0;
+	margin: 0;
+}
+.information li
+{
+  padding: 10px;
+}
+.information ul li:nth-child(odd) {
+	background-color: #EEE;
+}
+.information ul li span {
+	display: inline-block;
+	width: 120px;
+}
+.information .btn-primary
+{
+  margin-top: 10px;
+}
+.thumbnail .date {
+	text-align: right;
+	font-size: 13px;
+	color: #AAA;
+	font-weight: bold;
+}
+/*****************end profile*********************/
+/*****************start item*********************/
+.item-info h2
+{
+  margin-top: 0;
+  padding: 10px;
+}
+.item-info p
+{
+  padding: 10px;
+}
+.item-info ul li span{
+  display: inline-block;
+  width: 120px;
+}
+.item-info ul li{
+  padding: 10px;
+}
+.item-info ul li:nth-child(odd) {
+	background-color: #cac4c4;
+}
+.mycustom
+{
+  margin-top: 45px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #695f5f;
+}
+.add-comment h3 {
+	margin: 0 0 10px;
+}
+.add-comment textarea
+{
+  display: block;
+  margin-bottom: 10px;
+  width: 500px;
+	height: 120px;
+}
+.comment-box img{
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+.comment-box .lead{
+  background-color: #e0e0e0;
+  position: relative;
+  padding: 10px;
+  margin-top: 25px;
+}
+.comment-box .lead:before
+{
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent #e0e0e0 transparent transparent;
+  position: absolute;
+  left: -28px;
+  top: 10px;
+}
+.item-box .caption p{
+  height: 44px;
+  max-height: 44px;
+}
+.item-box .approve-status
+{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #b85a5a;
+  color: #fff;
+  padding: 3px 5px;
+}
+/******************end item**********************/

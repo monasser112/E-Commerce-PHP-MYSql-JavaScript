@@ -1,0 +1,388 @@
+
+body {
+  background-color: white;
+  font-size: 16px;
+}
+/******************start login form********************/
+.login
+{
+  width: 300px;
+  margin: 100px auto;
+}
+.login .form-group
+{
+  margin-bottom: 10px;
+}
+.login .form-control
+{
+  background-color: #eaeaea;
+}
+.login .btn{
+  background-color: #008dde;
+}
+/******************end login form********************/
+/*******************start navbar*********************/
+/* start forms */
+
+.whole-body{
+    background-color: #333;
+}
+
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: teal;
+    font-weight: bold;
+}
+
+
+.type .inp{
+    background-color: #eaeaea;
+
+}
+
+
+.control-label{
+    font-size: 19px;
+    color: teal;
+}
+
+.radio-field{
+    margin-top: 30px;
+}
+
+.rad{
+    /*margin-left: 287px;*/
+    color:teal ;
+}
+
+.custom-select .option{
+    background-color: #eaeaea;
+}
+
+/* end forms*/
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.nav > li > a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+
+.navbar-brand {
+	font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+}
+
+.dropdown-menu {
+	min-width: 180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+	color: #FFF;
+	padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+/*******************end navbar*********************/
+/***************** Start dashbord Page ************/
+.body-page{
+    background-color: white;
+}
+
+.home-stat .state{
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 21px;
+    color: #eee;
+    /*position: relative;
+    overflow: hidden;*/
+}
+
+.home-stat .state i{
+   /* position: absolute;
+    top: 35px;
+    left: 30px;*/
+    font-size: 60px;
+
+}
+
+/*.home-stat .state .info
+{
+    float: right;
+}*/
+
+.home-stat h1{
+    color: teal;
+}
+
+.home-stat span{
+    font-size: 60px;
+}
+
+.home-stat .state a{
+    color:#eee;
+}
+
+.home-stat .state a:hover{
+    text-decoration: none;
+}
+
+.home-stat .st-members{
+    background-color: #1abc9c;
+    margin-bottom: 4px;
+}
+
+.home-stat .st-pending{
+    background-color: #e74c3c;
+    margin-bottom: 4px;
+}
+
+.home-stat .st-items{
+    background-color: #f1c40f;
+    margin-bottom: 4px;
+}
+
+.home-stat .st-comments{
+    background-color: #9b59b6;
+}
+
+.header{
+    font-size: 18px;
+}
+
+.latests{
+    margin-top: 30px;
+}
+
+.latest-users{
+    margin-bottom: 0;
+}
+
+.latest-users li{
+    overflow: hidden;
+}
+.latest-users li a{
+    text-decoration: none;
+    color: white;
+}
+.latest-users li:nth-child(odd){
+    background-color: #eee;
+}
+
+.dash p{
+    font-size: 17px;
+}
+
+.dash .btn-dash{
+    padding: 5 4;
+    margin: 5px;
+}
+
+.latest-users .comment-box{
+    margin: 5px 0 10px;
+}
+
+.latest-users .comment-box .member-n,
+.latest-users .comment-box .member-c{
+    float: left;
+}
+
+.latest-users .comment-box .member-n{
+    width: 80px;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.latest-users .comment-box .member-c{
+    width: calc(100% - 100px);
+    position: relative;
+}
+
+/****************************/
+/*start of members table*/
+.main-table{
+    -webkit-box-shadow: 0 3px 10px #ccc;
+    -moz-box-shadow: 0 3px 10px #ccc;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.main-table td{
+    background-color: #fff;
+    vertical-align: middle;
+
+}
+
+
+.main-table tr:first-child td{
+    background-color: #333;
+    color: #fff;
+}
+
+.heading{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: teal;
+    font-weight: bold;
+    padding-top:30px;
+}
+
+.table1 .table2 td{
+    padding: 10px;
+}
+
+
+
+.btnb{
+    width: 185px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.btn-table {
+    margin-left: 20px;
+}
+
+
+
+/***************************/
+/*************members page***********************/
+/*******************fady**********************/
+/**************manage cat*********************/
+.whole-body{
+    background-color: #343A40;
+    height: 750px;
+}
+
+.catdif .heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: teal;
+    font-weight: bold;
+}
+
+.catdif .category .cardd .ord-view{
+    color: teal;
+}
+
+.catdif .category .cardd .hiddden {
+    text-decoration: none;
+    color: teal;
+}
+
+
+.catdif .header{
+    font-size: 23px;
+}
+
+.catdif .cats li{
+    font-size: 17px;
+}
+
+.catdif  .cat{
+    margin-bottom: 20px;
+}
+
+.catdif .category .cats{
+    padding: 0;
+}
+
+.catdif  .category .cat{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.catdif .category .cat:hover .hidden-buttons{
+    right: 10px;
+}
+
+.catdif .category .cat:hover{
+    background-color: #eee;
+}
+
+
+.catdif .category .cat .hidden-buttons{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 10px;
+    right: -188px;
+    margin-top: 7px;
+
+}
+
+.catdif .category .cat h4{
+    font-weight: bold;
+    color: #666;
+}
+
+.catdif .category .cat p{
+    color: teal;
+
+}
+
+.catdif .category .cat hr{
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.catdif .category .cat:last-of-type ~ hr{
+    display: none;
+}
+
+.catdif .cat .description a {
+    text-decoration: none;
+    color: te
+}
+.catdif .btn{
+}
+
+.form-error {
+    border:red 3px solid;
+    display:inline;
+    color:grey;
+   }
+   /*css for handling username succes*/
+   .form-success{
+       border:#64ce83 3px solid;
+       display:inline;
+       color: grey;
+   }
+   #flashMessage{
+    color: white;
+   /* background-color: #64ce83; */
+    padding: 15px;
+    border-radius: 5px;
+    display: block;
+    width: calc(100% - 100px);
+    margin-bottom: 40px;
+}
+
+
+/*************end manage cat*****************/
